@@ -35,8 +35,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-FEATURES_DB = os.environ['FEATURES_DB']
-PERSONS_DB = os.environ['PERSONS_DB']
+FEATURES_DB = os.environ['FEATURES_DB'].replace('postgres://', 'postgresql://')
+PERSONS_DB = os.environ['PERSONS_DB'].replace('postgres://', 'postgresql://')
 
 db_worker = DbWorker(FEATURES_DB, PERSONS_DB)
 
