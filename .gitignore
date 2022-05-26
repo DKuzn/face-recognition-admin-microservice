@@ -1,3 +1,5 @@
 /__pycache__
 /.vscode
 /FRAMS/__pycache__
+/build
+/FRAMS.egg-info
