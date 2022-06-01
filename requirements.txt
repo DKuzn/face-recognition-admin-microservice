@@ -11,5 +11,5 @@ pydantic==1.9.0
 setuptools==61.1.0
 uvicorn==0.17.6
 gunicorn==20.1.0
-git+https://github.com/DKuzn/face-recognition-microservice.git@v1.5.0
-git+https://github.com/DKuzn/person-info-microservice.git@v1.2.0
+git+https://github.com/DKuzn/face-recognition-microservice.git@v1.5.1
+git+https://github.com/DKuzn/person-info-microservice.git@v1.2.1
